@@ -1,3 +1,9 @@
+/* {
+   border: 1px solid red;
+}*/
+
+
+
 body, html{
     height: 100%;
     margin: 0px;
@@ -5,7 +11,7 @@ body, html{
 body{
    background-color:black;
 }
-
+/* If I want a background image to be for the whole page, add it in line 12 as background-image */
 nav li{
     display: inline;
        margin: 20 px;
@@ -36,7 +42,7 @@ nav li{
 
    
      .hero-text{
-      color:white;
+      color:green;
       text-align:center;
       position:absolute;
       top:50%;
@@ -45,7 +51,7 @@ nav li{
      }
    
      .hero-image{
-      background-image:url("images/MokkaAcquaintanceCard2020-2.JPG");
+      background-image:url("/images/MokkaAcquaintanceCard2020-2.JPG");
       height:50%;
       background-repeat:no-repeat;
       background-size:cover;
@@ -72,7 +78,7 @@ nav li{
 #profile-image{
    width:100px;
    border-radius:50%;
-   border:5px solid lightgray;
+   border:1px solid black;
 }
 
 #profile{
